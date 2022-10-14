@@ -6,4 +6,6 @@ def main(a):
         bool
     """
     # Write your code here
-    return 
+    x = pow(a,1/2)
+    return x % 2 == 0
+print(main(4))
